@@ -1,0 +1,61 @@
+body {
+  padding: 10px 0px 0px 0px;
+  z-index: 0;
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.style-1 {
+  color: rgba(0,0,0);
+  text-decoration: none;
+}
+
+.style-1.active,
+.style-1:active,
+.style-1:focus,
+.style-1:hover {
+  color: rgba(0,0,0,0.40);
+  text-decoration: none;
+}
+
+.style-2 {
+  color: rgba(255,255,255);
+  text-decoration: none;
+}
+
+.style-2.active,
+.style-2:active,
+.style-2:focus,
+.style-2:hover {
+  color: rgba(0,0,0,0.99);
+  text-decoration: none;
+}
+
+.bg {
+  background-image: url("./img/cybertruck.jpg");
+  background-color: transparent;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  min-height: 600px;
+}
+
+.bg1 {
+  background-image: url("./img/Rivian1.jpg");
+  background-color: transparent;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  min-height: 600px;
+}
+.card {
+  background-color: white;
+  max-width: 500px;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px,10px,10px,10px;
+  margin: 10px,10px,10px,10px;
+}
